@@ -9,7 +9,8 @@ window.onscroll = function() {
   var scrolled = window.pageYOffset || document.documentElement.scrollTop;
   if (scrolled > 100) {
       document.getElementById('upbutton').style.display = 'block';
-  } else {
+  }
+  else {
       document.getElementById('upbutton').style.display = 'none';
   }
 }
