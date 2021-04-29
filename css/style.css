@@ -71,7 +71,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 nav{
   background: #00B69C;
-  opacity: 0.8;
+  opacity: 0.92;
+
+  position:fixed;
+  width:100%;
+  top:0;
+  z-index:99999;
+  -webkit-box-shadow: 0px -17px 21px 7px #00B69C; 
+  box-shadow: 0px -17px 21px 7px #00B69C; 
 }
 nav:after{
   content: '';
@@ -169,6 +176,9 @@ nav ul ul ul li{
   margin-left: 40px;
 }
 @media all and (max-width: 968px) {
+  nav{
+    overflow: auto;
+  }
   nav ul{
     margin-right: 0px;
     float: left;
@@ -286,7 +296,7 @@ p{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-top: 70px;
+    padding-top: 40vh;
   }
   .firstTitle {
     font-size: 60px;
@@ -383,6 +393,9 @@ p{
     flex: 1 1 50%;
     position: relative;
 
+  }
+  .photo-me>img{
+    display: none;
   }
    
     .about-me{
@@ -529,6 +542,7 @@ p{
       color:#1a1a1b;
       text-align: center;
       padding-bottom: 2%;
+      padding-top: 2%;
     }
     .text-footer{
       word-wrap: break-word;
@@ -664,11 +678,22 @@ p{
   }
   @media (max-width: 1000px){
     .second-blok{
-      min-height: 100%;
+      min-height: 100vh;
+      overflow: auto;
      
     }
     .img-box{
       visibility: collapse;
+    }
+    .photo-me>img{
+      display: block;
+      max-width: 290px;
+      max-height: 200px;
+      margin-bottom: 10px;
+      border-radius: 15px;
+      margin: auto;
+      
+
     }
     .about-tour{
       float: none;
@@ -709,35 +734,25 @@ p{
       padding-bottom: 1%;
     }
     .footer-bottom-flex{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
+      display: block
+     
 
      
       
     }
     .icon-social-block{
-      justify-content: space-between;
-      align-items: center;
-      order: 1;
+     display: none;
      
     }
     .telephon-block{
-      justify-content: space-between;
-      align-items: center;
-     order: 2;
+     display: none;
 
     }
     .email{
-      justify-content: space-between;
-      align-items: center;
-      order: 3;
+     display: none;
     }
     .messangers{
-      order: 4;
-      justify-content: space-between;
-      align-items: center;
+      margin: auto;
     }
   }
   .text-footer>h3{
@@ -747,23 +762,8 @@ p{
     display: none;
   }
   @media (max-width: 450px){
-    .icon-social-block{
-      order: 2;
-      margin: auto;
-     
-    }
-    .telephon-block{
-     order: 1;
-     margin: auto; 
-    }
-    .email{
-      order: 3;
-      margin: auto;
-    }
-    .messangers{
-      order: 4;
-      margin: auto;
-    
-    }
+ 
+
+  
   }
 
