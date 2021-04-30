@@ -24,7 +24,7 @@ html,body{
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-  font-family: 'Antonio', sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
 }
 html::-webkit-scrollbar {
   width: 0;
@@ -66,7 +66,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   padding: 0;
   user-select: none;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 nav{
@@ -99,7 +99,6 @@ nav .logo>a>img{
   width: 5rem;
   border-radius: 10px;
   opacity: 0.3;
- 
   background-color: #00B69C;
 }
 nav ul{
@@ -300,8 +299,8 @@ p{
   }
   .firstTitle {
     font-size: 60px;
-    font-family: "OpenSans";
-    color: rgb(255, 255, 255);
+    font-family: 'Balsamiq Sans', cursive;
+    color: #FFBD00;
     line-height: 0.367;
     text-align: center;
     line-height: normal;
@@ -309,11 +308,17 @@ p{
   }
   .firstText {
     font-size: 22px;
-    font-family: "OpenSans";
-    color: rgb(255, 255, 255);
+    font-family: 'Balsamiq Sans', cursive;
+    color: #1a1a1b;
+    background-color:#D1FC5D;
+    border-radius: 15px;
+    opacity: 0.6;
     line-height: 1;
     text-align: center;
     margin-top:1.5rem;
+    margin-bottom: 1rem;
+    -webkit-box-shadow: 5px 9px 26px 38px rgba(207,242,29,0.59); 
+    box-shadow: 5px 9px 26px 38px rgba(207,242,29,0.59);
   }
   
   .buttonWrapper { 
@@ -340,12 +345,12 @@ p{
     font-weight: bold;
     color:#ffffff;
     text-transform: uppercase;
-    font-family: "Montserrat";
+    font-family: 'Balsamiq Sans', cursive;
     margin-bottom: 5px;
     width: 100%;
     height: 100%;
     background-color: #03F8D5;
-    opacity: 0.5;
+    opacity: 0.9;
   }
   .buttonServices2 {
     margin-left: 15px;
@@ -356,14 +361,14 @@ p{
   .buttonServices2 a{
     display: block;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 12%;
     background-color: #00897b;
     border-radius: 45px;
     font-size: 20px;
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
-    font-family: "Montserrat";
+    font-family: 'Balsamiq Sans', cursive;
     margin-bottom: 5px;
     width: 100%;
     height: 100%;
@@ -406,14 +411,14 @@ p{
 
     }
     .about-me>h2{
-      font-family: "Antonio";
+      font-family: 'Balsamiq Sans', cursive;
       font-size: 20px;
       font-weight: bold;
       margin-bottom: 15px;
 
     }
     .about-me>p{
-      font-family: "OpenSans";
+      font-family: 'Balsamiq Sans', cursive;
       font-size: 16px;
       font-weight:normal;
       font-style: initial;
@@ -434,7 +439,7 @@ p{
     font-weight: bold;
     color: #ffffff;
     text-transform:capitalize;
-    font-family: "OpenSans";
+    font-family: 'Balsamiq Sans', cursive;
     font-style: initial;
     width: 100%;
     height: 100%;
@@ -480,7 +485,7 @@ p{
      word-wrap: break-word;
      width: 230px;
      height: 240px;
-     margin: 10px 20px 0 50px; 
+     margin: 10px 20px 10px 50px; 
     }
     .about-tour>h5{
       font-size: 16px;
@@ -626,6 +631,22 @@ p{
    
   /* media @@@@ media*/
   @media (max-width: 767px){
+    nav .logo>a{
+      float: left;
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 50px;
+      padding-left: 10px;
+    
+    }
+    nav .logo>a>img{
+      height: 4rem;
+      width: 4rem;
+      border-radius: 10px;
+      opacity: 0.3;
+      background-color: #00B69C;
+    }
     .containerFirstBlock{
       overflow: auto;
     }
@@ -674,7 +695,7 @@ p{
   }
   @media (max-width: 1000px){
     .container-second-block{
-      display: flex;
+      display: block;
       align-items: center;
       justify-content: space-around;
       text-align: center;
@@ -691,14 +712,15 @@ p{
       }
       .second-blok{
         position: relative;
-        min-height: 100vh;
-        overflow: auto;
+        min-height: 100%;
+       
+        margin-bottom: 10px;
         
        
       }
       .about-me{
-        width: 20em;
-        height: 100vh;
+        width: 30em;
+        height: 100%;
         padding: 15px;
         }
     .img-box{
@@ -715,18 +737,27 @@ p{
 
     }
     .about-tour{
-      float: none;
       text-align: center;
-      
-      max-width: 95%;
+      max-width: 100%;
+      height: 100%;
       word-wrap: break-word;
       width: 230px;
-      height: 240px;
+      
       margin: auto;
+      
       
     }
     .container-third-block{
       max-height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 100%;
+      width: 100%;
+      padding-top: 40px;
+      background-color: #EAF4FA;
+      
+    
       
      
     }
@@ -739,7 +770,9 @@ p{
       float: inline-end;
       margin: auto;
       left: 50%; 
-      max-width: 95%;
+      max-width: 100%;
+      margin-bottom: 15px;
+      margin-top: 15px;
     }
     .footer {
       display: block;
@@ -781,7 +814,34 @@ p{
     display: none;
   }
   @media (max-width: 450px){
- 
+    .firstTitle {
+      font-size: 27px;}
+      .firstText {
+        font-size: 22px;
+        
+      }
+      
+      .buttonServices1 {
+        margin-left: auto;
+        height: 50px;
+        width: 150px;
+      }
+      .buttonServices1 a{
+        font-size: 15px;
+      }
+      .buttonServices2 {
+        margin-right: auto;
+        height: 50px;
+        width: 150px;
+        
+      }
+      .buttonServices2 a{
+     font-size: 15px;
+      }
+    
+    .about-me{
+      width: 20em;
+      }
 
   
   }
