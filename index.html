@@ -17,60 +17,77 @@
    </head>
    <body>
       <div class="wrapper">
-         
-      <nav class="navbar">
-         <div class="logo">
-           <a href=""><img src="./img/logo.svg" alt="Карпатами">Головна</a>
-         </div>
-         <label for="btn" class="icon">
-         <span class="fa fa-bars"></span>
-         </label>
-         <input type="checkbox" id="btn">
-         <ul>
-            <li><a href="#">Блог</a></li>
-            <li>
-               <label for="btn-2" class="show">Екскурсії +</label>
-               <a href="#">Екскурсії</a>
-               <input type="checkbox" id="btn-2">
-               <ul>
-                  <li>
-                     <label for="btn-3" class="show padding-sub">Походи</label>
-                     <a href="#">Походи <span class=""></span></a>
-                     <input type="checkbox" id="btn-3">
-                   
-                  </li>
-                  <li>
-                     <label for="btn-3" class="show padding-sub">Закарпаття</label>
-                     <a href="#">Закарпаття<span class=""></span></a>
-                     <input type="checkbox" id="btn-3">
-                    
-                  </li>
-                  <li>
-                     <label for="btn-3" class="show padding-sub">Львівщина</label>
-                     <a href="#">Львівщина<span class=""></span></a>
-                     <input type="checkbox" id="btn-3">
-                    
-                  </li>
-                  
-               </ul>
-            </li>
-            <li>
-               <label for="btn-1" class="show">Співпраця +</label>
-               <a href="#">Співпраця</a>
-               <input type="checkbox" id="btn-1">
-               <ul>
-                  <li><a href="#">Індивідуальні Екскурсії</a></li>
-                  <li><a href="#">Туристичним операторам</a></li>
-                  <li><a href="#">Корпоративи</a></li>
-                  
-               </ul>
-            </li>
-            <li><a href="#">Відгуки</a></li>
-            <li><a href="#">Контакти</a></li>
-         </ul>
-      </nav>
-      
-         <div class="containerFirstBlock">
+         <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/burger.css">
+	
+	
+	<title>Menu</title>
+</head>
+<body id="body" class="">
+	<div class="wrapper">
+		<header class="header">
+			<div class="header_container">
+				<a href="" class="header_logo"> <img src="./img/logo.svg" alt="">Головна</a>
+				<div class="header_menu menu">
+					<div class="menu_icon">
+						<span></span>
+					</div>
+					<nav class="menu_body">
+						<ul class="menu_list">
+							<li>
+								<a data-goto=".page_section_1" href="#" class="menu_link">Блог</a>
+							</li>
+							<li>
+								<a href="" class="menu_link">Екскурсії</a>
+								<span class="menu_arrow"></span>
+								<ul class="menu_sub-list">
+									<li>
+										<a href="" class="menu_sub-link"> Львів</a>
+									</li>
+									<li>
+										<a href="" class="menu_sub-link"> Закарпаття</a>
+									</li>
+									<li>
+										<a href="" class="menu_sub-link"> Походи</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a data-goto=".page_section_3" href="#" class="menu_link">Відгуки</a>
+							</li>
+							<li>
+								<a href="" class="menu_link">Співпраця</a>
+								<span class="menu_arrow"></span>
+								<ul class="menu_sub-list">
+									<li>
+										<a href="" class="menu_sub-link">Індивідуальні Екскурсії</a>
+									</li>
+									<li>
+										<a href="" class="menu_sub-link">Туристичним Операторам</a>
+									</li>
+									<li>
+										<a href="" class="menu_sub-link">Корпоративи</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="" class="menu_link">Контакти</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		
+	</div>
+	<script src="js/burger.js"></script>
+</body>
+</html>
+         <div class="containerFirstBlock page_section_1">
                   <div class="container">
                      <div class="firstBlock">
                         <div class="firstBlockContent">
@@ -90,7 +107,7 @@
                      </div>
                   </div>
          </div>
-         <div class="container-second-block">
+         <div class="container-second-block page_section_2">
             <div class="second-blok">
                <div class="about-me-wrapper">
                   <div class="about-me">
@@ -109,7 +126,7 @@
                </div>
             </div>
          </div>
-         <div id="scroll" class="container-third-block">
+         <div id="scroll" class="container-third-block page_section_3">
             <div class="about-tour">
                <h5>Маршрути</h5>
                <h3>Найцікавіші місця</h3>
@@ -218,6 +235,6 @@
     <img src="./img/up5.png" alt="Top" border="none" title="Догори">
 </a>
       </div>
-      
+      <script src="./js/burger.js" ></script>
    </body>
 </html>
