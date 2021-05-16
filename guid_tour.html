@@ -19,79 +19,7 @@
 
 <body>
     <div class="wrapper">
-        <!DOCTYPE html>
-<html>
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" type="text/css" href="css/burger.css">
-
-
-	<title>Menu</title>
-</head>
-
-<body id="body" class="">
-	<div class="wrapper">
-		<header class="header">
-			<div class="header_container">
-				<a href="index.html" class="header_logo"> <img src="./img/logo.svg" alt="">Головна</a>
-				<div class="header_menu menu">
-					<div class="menu_icon">
-						<span></span>
-					</div>
-					<nav class="menu_body">
-						<ul class="menu_list">
-							<li>
-								<a data-goto=".page_section_1" href="#" class="menu_link">Блог</a>
-							</li>
-							<li>
-								<a href="guid_tour.html" class="menu_link">Екскурсії</a>
-								<span class="menu_arrow"></span>
-								<ul class="menu_sub-list">
-									<li>
-										<a href="" class="menu_sub-link"> Львів</a>
-									</li>
-									<li>
-										<a href="" class="menu_sub-link"> Закарпаття</a>
-									</li>
-									<li>
-										<a href="" class="menu_sub-link"> Походи</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a data-goto=".page_section_3" href="#" class="menu_link">Відгуки</a>
-							</li>
-							<li>
-								<a href="" class="menu_link">Співпраця</a>
-								<span class="menu_arrow"></span>
-								<ul class="menu_sub-list">
-									<li>
-										<a href="" class="menu_sub-link">Індивідуальні Екскурсії</a>
-									</li>
-									<li>
-										<a href="" class="menu_sub-link">Туристичним Операторам</a>
-									</li>
-									<li>
-										<a href="" class="menu_sub-link">Корпоративи</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="" class="menu_link">Контакти</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
-
-	</div>
-	<script src="js/burger.js"></script>
-</body>
-
-</html>
+        @@include('_burger.html')
         <div class="main">
             <div class="container">
                 <div class="header-text">
@@ -104,7 +32,8 @@
                     <div class="abuot-tour">
                         <a href="./guid_tour-lviv.html">
                             <img src="./img/Uzhhorod.jpg" alt="Lviv">
-                            <h2>Львів Середньовічний</h2>
+                            <h2>Львів та довкола
+                            </h2>
 
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, numquam?</p>
                         </a>
@@ -134,57 +63,8 @@
             </div>
 
         </div>
-        <footer class="footer">
-    <div class="text-footer">
-       <h3>Для попереднього замовлення телефонуйте за номером!</h3>
-       <p>пишіть на пошту з радістю дамо відповідь</p>
-    </div>
-    <div class="fotter-bottom"> 
-       <div class="footer-bottom-flex">
-             <div class="icon-social-block">
-                <a title="Facebook" href="https://www.facebook.com/TarasHaidukUa/">
-                   <i class="fab fa-facebook-square fa-2x mb-3 sr-contact " aria-hidden="true"></i>
-             </a>
-                <a title="Youtube" href="https://www.youtube.com/user/KarpatamyPlus">
-                   <i class="fab fa-youtube fa-2x mb-3 sr-contact" aria-hidden="true"></i>
-                </a>
-                <a title="Instagram" href="#">
-                   <i class="fab fa-instagram fa-2x mb-3 sr-contact" aria-hidden="true"></i>
-             </a>
-             </div>
-             <div class="telephon-block ">
-                <a href="tel:+38-093-322-59-37">
-                   <i class="fa fa-phone fa-2x mb-3 sr-contact" aria-hidden="true"></i>
-                   </a><p><a href="tel:+38-093-322-59-37">
-                      </a><a href="tel:+38-093-322-59-37">+38-093-322-59-37</a>
-                   </p>
-          </div>
-          <div class="email">
-             <a href="mailto:haiduk.taras@gmail.com">
-             <i class="fas fa-envelope fa-2x mb-3 sr-contact" aria-hidden="true"></i>
-             </a><p><a href="mailto:haiduk.taras@gmail.com">
-                </a><a href="mailto:haiduk.taras@gmail.com">haiduk.taras@gmail.com</a>
-             </p>
-             
-             </div>
-             <div class="messangers">
-                <a title="WhatsApp" href="whatsapp://send?phone=+380933225937">
-                   <i class="fab fa-whatsapp fa-2x mb-3 sr-contact" aria-hidden="true"></i>
-                </a>
-                <a title="Viber" href="viber://chat?number=+380933225937">
-                   <i class="fab fa-viber fa-2x mb-3 sr-contact" aria-hidden="true"></i>
-                </a>
-                <a title="Telegram" href="tg://resolve?domain=@Tarence">
-                   <i class="fab fa-telegram fa-2x mb-3 sr-contact" aria-hidden="true"></i>
-                </a>
-    
-          </div>
-       </div>   
-    </div>  
- </footer>
-        <a id="upbutton" href="#" onclick="smoothJumpUp(); return false;">
-    <img src="./img/up5.png" alt="Top" border="none" title="Догори">
-</a>
+        @@include('_footer.html')
+        @@include('_up.html')
     </div>
     <script src="./js/burger.js"></script>
 </body>
