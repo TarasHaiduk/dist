@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16.312" height="9" viewBox="0 0 16.312 9">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #474747;
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <path id="more_icon" data-name="more icon" class="cls-1" d="M250.3,951.5h0l-4.5-4.5h-4.5l4.5,4.5-4.5,4.5h4.5Zm-7.3,0h0l-4.5-4.5H234l4.5,4.5L234,956h4.5l4.5-4.5h0Z" transform="translate(-234 -947)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16.312" height="9"><path data-name="more icon" d="M16.3 4.5L11.8 0H7.3l4.5 4.5L7.3 9h4.5zM9 4.5L4.5 0H0l4.5 4.5L0 9h4.5L9 4.5z" fill="#474747" fill-rule="evenodd"/></svg>
