@@ -73,7 +73,7 @@ body._lock{
 	left: 0;
 	width: 100%;
 	z-index: 100;
-	background-color: #00B69C;
+	background-color: #acacac;
 }
 .header_container {
 	max-width: 1200px;
@@ -107,10 +107,10 @@ body._lock{
 	margin: 0px 0px 0px 40px;
 }
 .menu_list >li:hover{
-  color: cyan;
+  color: #acacac;
   border-radius: 5px;
-  box-shadow: 0 0 5px #33ffff, 0 0 10px #66ffff;
-  background: #00B69C;
+  box-shadow: 0 0 5px #acacac, 0 0 10px #acacac;
+  background: #acacac;
 }
 .menu_link {
 	color: #ffffff;
@@ -124,7 +124,7 @@ body._lock{
 	position: absolute;
 	top: 100%;
 	right: 0;
-	background-color: #00B69C;
+	background-color: #acacac;
 	padding: 15px;
 	min-width: 200px;
 
@@ -136,8 +136,8 @@ body._lock{
 	margin: 0;
 }
 .menu_sub-link {
-	color: #ffffff;
-  background-color: #00B69C;
+	color: #141414;
+  background-color: #acacac;
 }
 .menu_sub-link:hover{
 	text-decoration: underline;
@@ -252,7 +252,7 @@ body._touch .menu_list > li._active .menu_arrow {
 		left: -100%;
 		width: 100%;
 		height: 100%;
-		background-color: #00B69C;
+		background-color: #acacac;
 		padding: 100px 30px 30px 30px;
 		transition: left 0.3s ease 0s;
 		overflow: auto;
@@ -267,7 +267,7 @@ body._touch .menu_list > li._active .menu_arrow {
 		top: 0;
 		left: 0;
 		height: 70px;
-		background-color: #00B69C;
+		background-color: #acacac;
 		z-index: 2;
 	}
 	.menu_list li{
@@ -275,10 +275,10 @@ body._touch .menu_list > li._active .menu_arrow {
 		margin: 0px 0px 30px 0px;
 	}
   .menu_list >li:hover{
-    color: cyan;
+    color: #acacac;
     border-radius: 5px;
-    box-shadow: 0 0 5px #33ffff, 0 0 10px #66ffff;
-    background: #00B69C;
+    box-shadow: 0 0 5px #acacac, 0 0 10px #acacac;
+    background: #acacac;
   }
 	.menu_list >li:last-child{
 		margin-bottom: 0;
@@ -292,7 +292,7 @@ body._touch .menu_list > li._active .menu_arrow {
 	}
 	.menu_sub-list{
 		position: relative;
-		background-color: #00B69C;
+		background-color: #acacac;
 		flex: 1 1 100%;
 		margin: 20px 0px 0px 0px;
 		display: none;
@@ -331,8 +331,9 @@ body._touch .menu_list > li._active .menu_arrow {
   }
   .firstTitle {
     font-size: 60px;
-     
-    color: #ffffff;
+    font-style: italic;
+    font-weight: 555;
+    color: #120701;
     line-height: 0.367;
     text-align: center;
     line-height: normal;
@@ -346,9 +347,10 @@ body._touch .menu_list > li._active .menu_arrow {
   }
   .firstText {
     font-size: 22px;
+    font-weight: 500;
     
-    color: #ffffff;
-    background-color: rgba(0, 195, 209, 0.4);
+    color: #9f0000;
+    background-color: rgba(211, 241, 241, 0.4);
     border-radius: 15px;
     opacity: 1;
     line-height: 1;
@@ -382,7 +384,7 @@ body._touch .menu_list > li._active .menu_arrow {
     border-radius: 45px;
     font-size: 20px;
     font-weight: bold;
-    color:#ffffff;
+    color:#120701;
     text-transform: uppercase;
     margin-bottom: 5px;
     width: 100%;
@@ -404,7 +406,7 @@ body._touch .menu_list > li._active .menu_arrow {
     border-radius: 45px;
     font-size: 20px;
     font-weight: bold;
-    color: #ffffff;
+    color: #120701;
     text-transform: uppercase;
     margin-bottom: 5px;
     width: 100%;
@@ -415,7 +417,7 @@ body._touch .menu_list > li._active .menu_arrow {
    /* End First block start Second block*/
     /* Start second block start Second block*/
     .container-second-block{
-      background-color: #EEFCFA;
+      background-color: #f7f7f7;
       background-image: url('../img/Vector.png');
       background-repeat:no-repeat;
       background-position: top 10px left 350px;
@@ -513,7 +515,7 @@ body._touch .menu_list > li._active .menu_arrow {
       display: block;
       min-height: 100%;
       padding-top: 40px;
-      background-color: #EAF4FA;
+      background-color: #f7f7f7;
     
     }
     .about-tour_main {
@@ -586,7 +588,7 @@ body._touch .menu_list > li._active .menu_arrow {
       display: block;
       min-height: 100%;
       padding-top: 40px;
-      background-color: #EAF4FA;
+      background-color: #f7f7f7;
     
     }
     .about-tour_main4 {
@@ -677,7 +679,7 @@ body._touch .menu_list > li._active .menu_arrow {
       justify-content: space-around;
       align-items: center;
       padding-top: 50px;
-      background-color: #e4fffb;
+      background-color: #f7f7f7;
       color: #8d8d8d;
     }
     .contact-block h2{
@@ -735,7 +737,7 @@ body._touch .menu_list > li._active .menu_arrow {
       bottom: 0;
       width: 100%;
       height: 21vh;
-      background-color: #e4fffb;
+      background-color: #f5f0f0;
       color:#1a1a1b;
       text-align: center;
       padding-bottom: 2%;
@@ -799,14 +801,15 @@ body._touch .menu_list > li._active .menu_arrow {
     #upbutton {
       background-image: url("../img/up5.png");
       background-size: cover;
-      max-width: 30px;
-      max-height: 30px;
+      max-width: 40px;
+      max-height: 40px;
+      min-width: 40px;
+      min-height: 40px;
       bottom: 30px;
       right: 30px;
       cursor: pointer;
       display: none;
       position: fixed;
-     
     }
     /*end botton up*/
 
@@ -837,7 +840,7 @@ body._touch .menu_list > li._active .menu_arrow {
       width: 4rem;
       border-radius: 10px;
       opacity: 0.3;
-      background-color: #00B69C;
+      background-color: #acacac;
     }
     .containerFirstBlock{
       overflow: auto;
@@ -861,7 +864,6 @@ body._touch .menu_list > li._active .menu_arrow {
       justify-content: space-around;
       text-align: center;
       margin: auto;
-      background-color: #EEFCFA;
       background-position: top;   
       width:100%;
       min-height: 100%;
@@ -892,7 +894,6 @@ body._touch .menu_list > li._active .menu_arrow {
       justify-content: space-around;
       text-align: center;
       margin: auto;
-      background-color: #EEFCFA;
       background-position: top;   
       width:100%;
       min-height: 100%;
@@ -947,10 +948,6 @@ body._touch .menu_list > li._active .menu_arrow {
       height: 100%;
       width: 100%;
       padding-top: 40px;
-      background-color: #EAF4FA;
-      
-    
-      
      
     }
     .hide{
@@ -1044,7 +1041,7 @@ body._touch .menu_list > li._active .menu_arrow {
   height: 25%;
   margin: 70px auto 0px auto;
   text-align: center;
-  background-color: #EAF4FA;
+  background-color: #f7f7f7;
 }
 .header-text h2{
   font-size: 25px;
@@ -1064,7 +1061,7 @@ body._touch .menu_list > li._active .menu_arrow {
   padding:90px 0px 0px 0px ;
   min-width: 100vw;
   min-height: 100vh;
- background-color: #EAF4FA;
+ background-color: #f7f7f7;
 }
 .abuot-tour {
   max-width: 330px;
@@ -1279,7 +1276,7 @@ body._touch .menu_list > li._active .menu_arrow {
     align-items: flex-start;
     justify-content: space-between;
     padding-top: 83px;
-    background-color: rgb(223, 238, 255);
+    background-color: #f7f7f7;
 
   }
 
@@ -1345,7 +1342,7 @@ body._touch .menu_list > li._active .menu_arrow {
 }
 .about_guide_tour_example {
   padding: 0px 50px 20px 50px;
-  background-color: rgb(223, 238, 255);
+ 
   min-height: 100%;
   max-width: 100vw;
   height: 100%;
