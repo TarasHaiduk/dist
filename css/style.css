@@ -703,6 +703,10 @@ body._touch .menu_list > li._active .menu_arrow {
        text-align: center;
        line-height: 1.5;
     }
+    .write_me>p{
+      color: #ec7e18;
+      text-transform: uppercase;
+    }
     .contact-block p a{
       visibility: collapse;
     }
