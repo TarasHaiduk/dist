@@ -1424,6 +1424,19 @@ body._touch .menu_list > li._active .menu_arrow {
   min-height: 240px;
   padding: 5px;
 }
+.img_block2 {
+    max-width: 330px;
+    max-height: 480px;
+    margin: auto;
+    
+}
+.img_block2>img{
+  max-width: 350px;
+  max-height: 240px;
+  min-width: 350px;
+  min-height: 240px;
+  padding: 5px;
+}
 .about_guide_tour_example {
   padding: 0px 50px 20px 50px;
   min-height: 100%;
@@ -1505,6 +1518,19 @@ body._touch .menu_list > li._active .menu_arrow {
   
 }
 .img_block>img {
+    max-width: 100%;
+    max-height: 250px;
+    min-width: 100%;
+    min-height: 250px;
+}
+ .img_block2{
+    min-width: 97%;
+    max-width: 97%;
+    min-height: 97%;
+    max-height: 97%;
+  
+}
+.img_block2>img {
     max-width: 100%;
     max-height: 250px;
     min-width: 100%;
